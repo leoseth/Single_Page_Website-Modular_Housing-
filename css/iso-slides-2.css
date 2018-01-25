@@ -1,0 +1,84 @@
+﻿
+.mySlides2 {
+    display: none
+}
+
+/* Slideshow container */
+.slideshow-container2 {
+    max-width: 770px;
+    max-height: 430px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & prev2ious buttons */
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ff4f00;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next2 button" to the right */
+.next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev2:hover, .next2:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+/* The dot2s/bullets/indicators */
+.dot2 {
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot2:hover {
+        background-color: #ff4f00;
+    }
+
+/* Fading animation */
+.fade2 {
+    /*-webkit-animation-name: fade2;
+     -webkit-animation-duration: 1.5s;
+      animation-name: fade2;
+      animation-duration: 1.5s;*/
+}
+
+@-webkit-keyframes fade2 {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade2 {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev2, .next2, .text {
+        font-size: 11px
+    }
+}

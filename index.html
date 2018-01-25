@@ -1,0 +1,778 @@
+﻿<!DOCTYPE html>
+<html ng-app="myapp"> 
+<head>     
+	<meta charset="UTF-8">
+	<title ng-name="titles" ng-model="titles" id="titles">Main || Tempo Housing Modular Express</title>
+
+	<!-- responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- master stylesheet -->
+    <link rel="stylesheet" href="css/styling-2.css">
+	<!-- Responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+    
+    <script src="lib/angular.js"></script>
+    <!--<script src="lib/angular.min.js"></script>-->
+    <script src="lib/angular-route.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->        
+</head>
+<body>
+
+    <div id="home">
+
+        <div class="boxed_wrapper">
+
+            <!--Start Preloader -->
+            <div class="preloader">
+
+            </div>
+            <!--End Preloader -->
+            <!--Start top bar area-->
+            <!--<a href="projects-harbor.html">projects-harbor.html</a>-->
+            <section class="top-bar-area" style="background-color:#111934">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+                            <div class="top-left clearfix">
+                                <div class="our-office">
+                                    <!--<p style="color:#92a8d1;font-weight:100">Deborah Smyth</p>-->
+                                </div>
+                                <ul class="top-contact-info">
+                                    <!--<li><span class="flaticon-phone" id="phone"></span></li>-->
+                                    <!--<li><span class="flaticon-arrows"></span>Tempo Housing UK & Ireland Modular Express : dsmyth@tempohousing.com</li>-->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-2 col-sm-12 col-xs-12">
+                            <div class="top-right">
+                                <ul class="social-links">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/DEB24510329"><i class="fa fa-twitter"></i></a></li>
+                                    <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                                    <li><a href="https://www.linkedin.com/in/deborah-smyth-365456b0/"><i class="fa fa-linkedin"></i></a></li>
+                                    <!--<li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End top bar area-->
+            <!--Start header area-->
+            <section class="header-area" style="background-color:#17264f">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-3 col-md-3" style="margin-left:80px; background-repeat:no-repeat;background-size:contain;font-size: 1.3vw;">
+                            <div class="logo">
+                                <a href="#home">
+                                    <!--<img src="images/resources/logo-2.png" alt="Awesome Logo">-->
+                                    <img src="images/resources/logo-2.png"alt="Awesome Logo">
+                                    <p style="color:darkgrey;font-weight:100;">Modular Express Uk and Ireland</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--<div class="col-lg-7 col-md-9">-->
+                        <div class="col-xs-3 col-md-3" style="background-repeat:no-repeat;background-size:contain;font-size: 1.3vw;">
+                            <div class="header-right">
+                                <ul>
+                                    <li>
+                                        <div class="icon-holder">
+                                            <span class="flaticon-office"></span>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h4 style="font-size: 1.3vw;">Certified Company</h4>
+                                            <span style="color:darkgrey;font-size: 1.3vw">high quality service</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-3 col-md-3">
+                            <div class="header-right">
+                                <ul>
+                                    <li>
+                                        <div class="icon-holder">
+                                            <span class="flaticon-cup"></span>
+                                        </div>
+                                        <div class="text-holder">
+                                            <h4 style="font-size: 1.3vw;">The Best Industrial</h4>
+                                            <span style="font-size: 1.3vw;">modular solutions provider</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End header area-->
+            <!--Start mainmenu area-->
+            <section class="mainmenu-area stricky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <!--Start mainmenu-->
+                            <nav class="main-menu pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">                                       
+                                        <li class="current"><a href="#home"><span>Home</span></a></li>
+                                        <li class="dropdown">
+                                            <a href="#about"><span>ABOUT US</span></a>
+                                            <ul>
+                                                <li><a href="#about">About Company</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#products"><span>Products</span></a>                                            
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#projects"><span>Projects</span></a>
+                                            <ul class="dropdown">
+                                                <li><a href="#projects">Our Projects</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#contact"><span>Contact Us</span></a></li>
+                                        <li><a href="#brochure"><span>Brochure</span></a></li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                            <!--End mainmenu-->
+                            <div class="mainmenu-right-box pull-right">
+                                <div class="quote-button">
+                                    <!--<a><i class="fa fa-share" aria-hidden="true"></i><span onclick="requescallback()">Request Callback</span></a>-->
+                                </div>
+                                <div class="search-option">
+                                    <div class="outer-search-box">
+                                        <!--<div class="seach-toggle"><i class="fa fa-search"></i></div>-->
+                                        <ul class="search-box">
+                                            <li>
+                                                <form method="post" action="#home">
+                                                    <div class="form-group">
+                                                        <input type="search" name="search" placeholder="Search Here" required>
+                                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                                    </div>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End mainmenu area-->
+            <!--Start rev slider wrapper-->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                     <!--Start welcome area-->
+                     <section class="welcome-area" id="second-section">
+                         <div class="container">
+                             <div class="row">
+                                 <div class="col-md-6 col-sm-6 col-xs-6">
+                                     <!--<div class="welcome-content">-->
+                                     <div class="content">
+                                         <div class="title">
+                                             <h1 style="font-size: 2.3vw;margin-left:25%;">Welcome<br> to our <span style="font-size: 2.3vw;color:#ff4f00">industry</span></h1>
+                                         </div>
+                                     </div>
+                                     <br />
+                                     <div class="text">
+                                         <div class="row>">                                               
+                                             <span style="color:cornflowerblue;">We love building projects</span> with prefabricated modules. No chaos 
+                                             on construction, no trouble working in warm weather, rain or heavy storm: a complete house is being produced
+                                             in a factory. Tempohousing, build with prefab modules! Key benefits: quality (<span span style="color:cornflowerblue;">
+                                             controlled environment, strict procedures</span>), beneficial (the whole process is made much easier) 
+                                             and especially: speed.
+
+                                             Our modules are somewhat bound to the standard permitted transport sizes. Thus we build between 2.4
+                                             and 3.5 meters wide and between 6 and 14.5 meters long. That fits well on a truck. And if we use a
+                                             2.4-meter ISO container, we can transport it very profitable, worldwide.                                             
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>                             
+                         </div>
+                     </section>
+                 </div>
+                <!--this is for the first content-->
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                     <section class="rev_slider_wrapper" id="main-slider">
+                         <div id="slider1" class="rev_slider" data-version="5.0">
+                             <ul>
+                                 <li data-transition="random">                                     
+                                     <img src="images/slides/main-image-1-1.jpg" alt="" width="1920" height="600" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
+                                     <div class="tp-caption  tp-resizeme"
+                                          data-x="left" data-hoffset="0"
+                                          data-y="top" data-voffset="145"
+                                          data-transform_idle="o:1;"
+                                          data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                          data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                                          data-splitin="none"
+                                          data-splitout="none"
+                                          data-responsive_offset="on"
+                                          data-start="700">
+                                         <div class="slide-content-box mar-lft">
+                                             <!--<h1>The most targetted<br>industrial theme</h1>-->
+                                         </div>
+                                     </div>
+                                     <div class="tp-caption  tp-resizeme"
+                                          data-x="left" data-hoffset="0"
+                                          data-y="top" data-voffset="298"
+                                          data-transform_idle="o:1;"
+                                          data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                          data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                                          data-splitin="none"
+                                          data-splitout="none"
+                                          data-responsive_offset="on"
+                                          data-start="2000">
+                                         <div class="slide-content-box mar-lft">
+                                             <!--<p>Industry has consistently embraced innovation to provide a superior<br>level of excellence for all over valuable customers</p>-->
+                                         </div>
+                                     </div>
+                                     <div class="tp-caption tp-resizeme"
+                                          data-x="left" data-hoffset="0"
+                                          data-y="top" data-voffset="383"
+                                          data-transform_idle="o:1;"
+                                          data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                          data-splitin="none"
+                                          data-splitout="none"
+                                          data-responsive_offset="on"
+                                          data-start="2900">
+                                         <div class="slide-content-box mar-lft">
+                                             <!--<div class="button">
+                                                      <a class="thm-btn bg-clr1" href="#">Our Solutions</a>
+                                                      <a class="thm-btn bg-clr2 remdmore" href="#">Read More</a>
+                                             </div>-->
+                                         </div>
+                                     </div>
+                                 </li>
+                                 <li data-transition="random">
+                                     <!--<img src="images/slides/2.jpg" alt="" width="1920" height="600" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >-->
+                                     <img src="images/slides/main-image-2-1.jpg" alt="" width="1920" height="600" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
+
+                                     <div class="tp-caption tp-resizeme slogan"
+                                          data-x="center" data-hoffset="0"
+                                          data-y="center" data-voffset="-90"
+                                          data-transform_idle="o:1;"
+                                          data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                          data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                                          data-splitin="none"
+                                          data-splitout="none"
+                                          data-start="500">
+                                         <div class="slide-content-box middle-slide">
+                                             <!--<h1>We are manufacturing products<br> with world class quality</h1>-->
+                                         </div>
+                                     </div>
+                                     <div class="tp-caption tp-resizeme"
+                                          data-x="center" data-hoffset="0"
+                                          data-y="center" data-voffset="25"
+                                          data-transform_idle="o:1;"
+                                          data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                          data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;"
+                                          data-splitin="none"
+                                          data-splitout="none"
+                                          data-responsive_offset="on"
+                                          data-start="1500">
+                                         <div class="slide-content-box middle-slide">
+                                             <!--<p>Industry has consistently embraced innovation to provide a superior level of<br>excellence for all over valuable customers</p>-->
+                                         </div>
+                                     </div>
+                                     <div class="tp-caption tp-resizeme"
+                                          data-x="center" data-hoffset="0"
+                                          data-y="center" data-voffset="110"
+                                          data-transform_idle="o:1;"
+                                          data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                          data-splitin="none"
+                                          data-splitout="none"
+                                          data-responsive_offset="on"
+                                          data-start="2300">
+                                         <div class="slide-content-box middle-slide">
+                                             <!--<div class="button">
+                                                      <a class="thm-btn bg-clr1" href="#">Our Solutions</a>
+                                                      <a class="thm-btn bg-clr2 remdmore" href="#">Read More</a>
+                                             </div>-->
+                                         </div>
+                                     </div>
+                                 </li>
+                                 <li data-transition="random">
+                                     <img src="images/slides/main-image-3-1.jpg" alt="" width="1920" height="600" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
+
+                                     <div class="tp-caption  tp-resizeme"
+                                          data-x="right" data-hoffset="0"
+                                          data-y="top" data-voffset="145"
+                                          data-transform_idle="o:1;"
+                                          data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                          data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"
+                                          data-splitin="none"
+                                          data-splitout="none"
+                                          data-responsive_offset="on"
+                                          data-start="700">
+                                         <div class="slide-content-box lastslide">
+                                             <!--<h1>Provide solutions<br>for all industries</h1>
+                                             <p>Industry has consistently embraced innovation to provide a superior<br>level of excellence for all over valuable customers.</p>-->
+                                             <!--<div class="button">
+                                                   <a class="thm-btn bg-clr1" href="#">Our Solutions</a>
+                                                   <a class="thm-btn bg-clr2 remdmore" href="#">Read More</a>
+                                                 </div>-->
+                                         </div>
+                                     </div>
+                                 </li>
+                             </ul>
+                         </div>
+                     </section>
+                 </div>
+                <!--this is for the first content-->
+            </div>           
+            <!--Start solution area-->
+            <section class="solution-area" style="padding:0px;" id="third-section">
+                <div class="container">
+                    <div class="row">
+                        <!--Start single item-->
+                        <div class="col-md-4">
+                            <div class="single-solution-item">
+                                <div class="title-holder">
+                                    <h3>ISO Homes</h3>
+
+                                    <span class="border"></span>
+                                </div>
+                                <div class="img-holder">
+                                    <img src="images/solutions/iso-img-1.png" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="#product-iso">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<div class="icon-holder">
+                                        <span class="flaticon-halloween"></span>
+                                    </div>-->
+                                </div>
+                                <div class="text-holder">
+                                    <p>
+                                        <span style="color:grey;font-weight:500;font-size:14.5px;">Our most solid and durable solution</span>
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+                                    <p style="height:22px">
+                                        <span style="font-size:15px;height:10px">The</span> <span style="color:cornflowerblue;font-size:15px;font-weight:400;height:10px;">ISO home</span>,
+                                        <span style="font-size:15px;">based on a structure of original</span>
+                                    </p>
+                                    <p style="height:22px;font-size:15px;">
+                                        ISO shipping containers.  Sturdy, durable,
+                                    </p>
+                                    <p style="height:22px;font-size:15px;">
+                                        industrial, transportable
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+
+                                    <p style="height:22px;font-size:15px;">
+                                        Reuse and relocated these prefab homes time
+                                    </p>
+                                    <p style="height:22px;font-size:15px;">
+                                        and time again, but also as a permanent
+                                    </p>
+                                    <p style="height:22px;font-size:15px;">
+                                        solution.
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+
+                                    <p style="height:22px;font-size:15px;">
+                                        The concept has been proven for over ten years
+                                    </p>
+                                    <p style="height:22px;font-size:15px;">
+                                        and hundreds of times.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single item-->
+                        <!--Start single item-->
+                        <div class="col-md-4">
+                            <div class="single-solution-item">
+                                <div class="title-holder">
+                                    <h3>Modular Homes</h3>
+                                    <span class="border"></span>
+                                </div>
+                                <div class="img-holder">
+                                    <img src="images/solutions/modular-image-1.png" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="#product-modular-homes">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<div class="icon-holder">
+                                        <span class="flaticon-damper"></span>
+                                    </div>-->
+                                </div>
+                                <div class="text-holder">
+                                    <p>
+                                        <span style="color:grey;font-weight:500;font-size:14.5px;">Wider units and the use of innovative materials</span>
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+
+                                    <p style="font-size:15px;height:22px;">
+                                        Newly developed models with the <span style="color:cornflowerblue;font-size:15px;font-weight:400;">innovative</span>.
+                                    </p>
+                                    <p style="font-size:15px;height:22px;">
+                                        <span style="color:cornflowerblue;font-size:15px;font-weight:400;">use of mobile concrete</span>.
+                                    </p>
+
+                                    <div class="row" style="height:13px"></div>
+                                    <p style="font-size:15px">
+                                        Depending on the application in combination
+                                    </p>
+                                    <p style="font-size:15px;height:22px">
+                                        with a steel structure and / or high-quality
+                                    </p>
+                                    <p style="font-size:15px;height:22px">
+                                        insulation panels.
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+
+                                    <p style="font-size:15px;height:22px;">
+                                        Suitable for the European marker to provide a
+                                    </p>
+                                    <p style="font-size:15px;height:22px;">
+                                        more permanent solution.
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+
+                                    <p style="font-size:15px;height:22px;">
+                                        We can offer up-market and budget models to
+                                    </p>
+                                    <p style="font-size:15px;height:22px;">
+                                        customize your plans.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single item-->
+                        <!--Start single item-->
+                        <div class="col-md-4">
+                            <div class="single-solution-item">
+                                <div class="title-holder">
+                                    <h3>Flat Pack Homes</h3>
+                                    <span class="border"></span>
+                                </div>
+                                <div class="img-holder">
+                                    <img src="images/solutions/FlatPack-image-1.png" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="#product-flat-pack">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<div class="icon-holder">
+                                        <span class="flaticon-science"></span>
+                                    </div>-->
+                                </div>
+                                <div class="text-holder">
+                                    <p>
+                                        <span style="color:grey;font-weight:500;font-size:14.5px;">Create larger spaces Save on transport </span>
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+                                    <p style="font-size:15px;height:22px;">
+                                        Easy to create larger spaces and the most
+                                    </p>
+                                    <p style="font-size:15px;height:22px;">
+                                        <span style="color:cornflowerblue;font-size:15px;font-weight:400;">economical solution</span> when it comes to
+                                    </p>
+                                    <p style="font-size:15px;height:22px;">
+                                        transportation.
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+
+                                    <p style="font-size:15px;height:22px;">
+                                        Great for remote areas around the world.
+                                    </p>
+                                    <div class="row" style="height:13px"></div>
+
+                                    <p style="font-size:15px;height:22px;">
+                                        Quick delivery and deployment, stackable and
+                                    </p>
+                                    <p style="font-size:15px;height:22px;">
+                                        customizable to your specific specifications,
+                                    <p style="font-size:15px;height:22px;">
+                                        both in technical equipment and configuration.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single item-->
+                    </div>
+                </div>
+
+                <!--Start slogan area-->
+                <section class="slogan-area" style="margin-top:-40px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="text pull-left">
+                                    <h2 style="font-size: 1.9vw;">We are providing good & on time services to our valuable customers.</h2>
+                                </div>
+                                <div class="button pull-right">
+                                    <!--<a><span onclick="requescallback()">Request a Callback</span></a>-->
+                                    <!--<a><span onclick="requescallback()">Request a Callback</span></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End slogan area-->
+            </section>
+            <!--End solution area-->
+            <!--Start about industry area-->
+            <section class="about-industry-area" id="fourth-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="sec-title">
+                                <h1>About Our Industry</h1>
+                                <span class="border"></span>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <br />
+                                    <div class="img-holder">
+                                        <img src="images/about/history.jpg" alt="Awesome Image">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="text-holder">
+                                        <!--<p>When you give to Our Industry, know your donation is making a difference whether you are supporting our signature Programs or our carefully curated list of gifts that professional.</p>-->
+                                        <div class="title">
+                                            <h2>History in Words</h2>
+                                        </div>
+                                        <!--<p>We partner with over 320 amazing seds projects worldwide, and have given over million in cash & product grants to other groups since 2015 our own dynamic suite.</p>
+                                        <p>Ther-->
+                                        <!--anyone who loves or pursues or desires to obtain pain of it is because seds all occasionally circumstances.</p>-->
+                                        <p>
+                                            The company started in 2002 with the introduction of shipping container homes. We have built the largest student village in the world. Initially the project
+                                            was a temporary solution for only 5 years and it is now in use for more than 10 years and will stay in use until at least <span style="color:gray">2018</span>.
+                                            While our early plans were to focus on temporary solutions, all projects have proven to be suitable for permanent use also!
+                                        </p>
+                                        <p>
+                                            We are famous for all the shipping container projects we have done in many countries, but today we also provide other modular systems from steel and light weight
+                                            concrete, to serve a wider range of markets and customer.
+                                        </p>
+
+                                        <!--<a class="readmore thm-btn bg-clr1" href="#">Read More</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!--<form id="quote-form" action="#">
+                                <div class="sec-title text-center">
+                                    <h1>Request for Callback</h1>
+                                    <span class="border center"></span>
+                                </div>
+                                <div class="row" ng-controller="callbackController">
+                                    <div class="col-md-12">
+                                        <input type="text" name="form_name" id="form_name" ng-model="form_name" value="" placeholder="Your Name*" required="">
+                                        <input type="text" name="form_company" id="form_company" ng-model="form_company" value="" placeholder="Your Company*" required="">
+
+                                        <input type="text" name="form_number" id="form_number" ng-model="form_number" value="" placeholder="Your Number*" required="">
+                                        <input type="email" name="form_email" id="form_email" ng-model="form_email" value="" placeholder="Your Mail*" required="">
+                                        <textarea name="form_comments" id="form_comments" ng-model="form_comments" value="" placeholder="Your Comments*" required="" style="height:90px; width:310px"></textarea>
+                                        <button class="thm-btn bg-clr1" type="submit" ng-click="getcallback()">Get a Callback</button>
+                                    </div>
+                                </div>
+                            </form>-->
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--End about industry area-->
+            <!--Start slogan area-->
+            <!--<section class="slogan-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text pull-left">
+                                <h2>We are providing good & on time services to our valuable customers.</h2>
+                            </div>
+                            <div class="button pull-right">
+                                 <a><span onclick="requescallback()">Request a Callback</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>-->
+            <!--End slogan area-->
+            <!--Start footer area-->
+            <footer class="footer-area" style="padding:0px;background-color:#17264f">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12" style="padding:0;background-color:#111934;">
+                            <ul class="footer-contact-info">
+                                <li class="col-xs-6 col-md-6" style="font-size: 1.3vw;width:400px;">
+                                    <span class="flaticon-phone"></span><b style="color:silver;font-size: 1.3vw;">Phone:</b> Ireland :+353(0)85 814 8561
+                                    <p style="margin-left:100px;">UK :+44(0)77 9990 7527</p>
+                                </li>
+                                <li class="col-xs-6 col-md-6" style="font-size: 1.3vw;width:450px;margin-left:-20px;">
+                                    <span class="flaticon-arrows"></span><b style="color:silver;font-size: 1.3vw;">Address:</b> Building 3 Chiswick Park 566
+                                    <p style="margin-left:112px;">Chiswick High Street,</p>
+                                    <p style="margin-left:112px;">London,</p>
+                                    <p style="margin-left:112px;">W4 5YA</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" style="margin-top:-10px;">
+                    <div class="row">
+
+                        <!--Start single footer widget-->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            <div class="single-footer-widget pd-bottom50">
+                                <!--<div class="title">
+                                    <h3>about Us</h3>
+                                </div>-->
+                                <div class="about-us">
+                                    <!--<p>
+                                        Over 24 years experience and knowledge international standards, technologicaly changes
+                                        our industrial systems, we are dedicated to provides  the best solutions to our valued
+                                        customers there are many variations solutions.
+                                    </p>-->
+                                    <ul class="footer-social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://twitter.com/DEB24510329"><i class="fa fa-twitter"></i></a></li>
+                                        <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                                        <li><a href="https://www.linkedin.com/in/deborah-smyth-365456b0/"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+                        <!--Start single footer widget-->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            <div class="single-footer-widget marginlft pd-bottom50">
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+                    </div>
+                </div>
+            </footer>
+            <!--End footer area-->
+            <!--Start copyright area-->
+            <section class="copyright-area" style="background-color:#111934">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="support">
+                                <p><span class="flaticon-envelope"></span><span style="color:silver;font-weight:300">Any Queries :</span><a href="mailto:dsmyth@tempohousing.com"> <span style="color:white;font-weight:200">dsmyth@tempohousing.com</span></a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="copyright">
+                                <p>Copyrights © 2017 All Rights Reserved. Powered by <a href="#">Industry.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End copyright area-->
+            <!--Scroll to top-->
+            <div class="scroll-to-top scroll-to-target" data-target="html" id="trigger"><span class="fa fa-angle-up"></span></div>
+
+            <!-- main jQuery -->
+            <script src="js/jquery-1.11.1.min.js"></script>
+            <!-- Wow Script -->
+            <script src="js/wow.min.js"></script>
+            <!-- bootstrap -->
+            <script src="js/bootstrap.min.js"></script>
+            <!-- bx slider -->
+            <script src="js/jquery.bxslider.min.js"></script>
+            <!-- count to -->
+            <script src="js/jquery.countTo.js"></script>
+            <!-- owl carousel -->
+            <script src="js/owl.carousel.min.js"></script>
+            <!-- validate -->
+            <script src="js/validation.js"></script>
+            <!-- mixit up -->
+            <script src="js/jquery.mixitup.min.js"></script>
+            <!-- easing -->
+            <script src="js/jquery.easing.min.js"></script>
+            <!-- gmap helper -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+            <!--gmap script-->
+            <script src="js/gmaps.js"></script>
+            <script src="js/map-helper.js"></script>
+            <!-- fancy box -->
+            <script src="js/jquery.fancybox.pack.js"></script>
+            <script src="js/jquery.appear.js"></script>
+            <!-- isotope script-->
+            <script src="js/isotope.js"></script>
+            <script src="js/jquery.prettyPhoto.js"></script>
+            <script src="js/jquery.bootstrap-touchspin.js"></script>
+            <!-- jQuery timepicker js -->
+            <script src="assets/timepicker/timePicker.js"></script>
+            <!-- Bootstrap select picker js -->
+            <script src="assets/bootstrap-sl-1.12.1/bootstrap-select.js"></script>
+            <!-- Bootstrap bootstrap touchspin js -->
+            <!-- jQuery ui js -->
+            <script src="assets/jquery-ui-1.11.4/jquery-ui.js"></script>
+            <!-- Language Switche  -->
+            <script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+            <!-- Html 5 light box script-->
+            <script src="assets/html5lightbox/html5lightbox.js"></script>
+            <!-- Menuzord script-->
+            <script src="assets/menuzord/menuzord.js"></script>
+
+            <!-- revolution slider js -->
+            <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+            <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+            <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+            <!-- thm custom script -->
+            <script src="js/custom.js"></script>
+            <script src="js/calling.js"></script>
+            <script src="js/global.js"></script>
+            <script src="js/route.js"></script>
+
+            <!--this is for my slider-->
+            <script src="js/myslides.js"></script>
+            <!--this is for my slider-->
+        </div>       
+    </div>
+    <div ng-view=""></div>
+</body>
+</html>

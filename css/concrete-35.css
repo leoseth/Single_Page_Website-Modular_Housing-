@@ -1,0 +1,84 @@
+﻿
+.mySlides4 {
+    display:none
+}
+
+/* Slideshow container */
+.slideshow-container4 {
+    max-width: 693px;
+    max-height: 393px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & prev4ious buttons */
+.prev4, .next4 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ff4f00;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next4 button" to the right */
+.next4 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev4:hover, .next4:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+/* The dot4s/bullets/indicators */
+.dot4 {
+    cursor: pointer;   
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot4:hover {
+    background-color: #ff4f00;
+}
+
+/* Fading animation */
+.fade4 {
+     /*-webkit-animation-name: fade4;*/
+     /*-webkit-animation-duration: 1.5s;*/
+      animation-name: fade4;
+      /*animation-duration: 1.5s;*/
+}
+
+@-webkit-keyframes fade4 {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade4 {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev4, .next4, .text {
+        font-size: 11px
+    }
+}

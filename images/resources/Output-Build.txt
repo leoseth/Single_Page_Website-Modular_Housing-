@@ -1,0 +1,25 @@
+﻿------ Build started: Project: modularexpress, Configuration: Debug Any CPU ------
+Warning: Unable to update auto-refresh reference 'microsoft.codedom.providers.dotnetcompilerplatform.dll'. Cannot find assembly 'C:\Users\LEO\source\repos\modularexpress (2)\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll'.
+Validating Web Site
+Building directory '/App_Start/'.
+Building directory '/assets/bootstrap-sl-1.12.1/'.
+Building directory '/assets/html5lightbox/'.
+Building directory '/assets/jquery-ui-1.11.4/'.
+Building directory '/assets/language-switcher/'.
+Building directory '/assets/menuzord/'.
+Building directory '/assets/price-filter/'.
+Building directory '/assets/revolution/js/extensions/source/'.
+Building directory '/assets/revolution/js/extensions/'.
+Building directory '/assets/revolution/js/source/'.
+Building directory '/assets/revolution/js/'.
+Building directory '/assets/timepicker/'.
+Building directory '/Controllers/'.
+Building directory '/js/'.
+Building directory '/lib/'.
+Building directory '/Models/'.
+Building directory '/obj/Debug/'.
+Building directory '/Properties/'.
+Building directory '/Quarks/Machine.Fakes/System.Web.Mvc/'.
+
+Validation Complete
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

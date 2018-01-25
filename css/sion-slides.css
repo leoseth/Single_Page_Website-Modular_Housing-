@@ -1,0 +1,137 @@
+﻿
+.slideshow-container {width:770px;overflow:hidden;}
+/*.slideshow-container {width:770px;}*/
+.mySlides{
+    position: relative;
+    width: 6160px;
+    animation-name: slidetinder;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+.mySlides img {
+    float: left;
+}
+
+/*this is for 10,5 and 10,5 10,5*/
+/*@Keyframes slidetinder {
+     0% {left:0px;}
+    10% {left:0px;}
+    15% {left:-770px;}
+    25% {left:-770px;}
+    30% {left:-1540px;}
+    40% {left:-1540px;}
+    45% {left:-2310px;}
+    55% {left:-2310px;}
+    60% {left:-3080px;}
+    70% {left:-3080px;}
+    75% {left:-3850px;}
+    85% {left:-3850px;}
+    87% {left:-4620px;}
+    90% {left:-4620px;}    
+    95% {left:-5390px;}
+    100%{left:-5390px;}    
+}*/
+
+/*this is for 6,7 and 6,7*/
+@Keyframes slidetinder {
+    0%   {left:0px;}
+    6%   {left:0px;}
+    13%  {left:-770px;}
+    19%  {left:-770px;}
+    26%  {left:-1540px;}
+    32%  {left:-1540px;}
+    39%  {left:-2310px;}
+    45%  {left:-2310px;}
+    52%  {left:-3080px;}
+    58%  {left:-3080px;}
+    65%  {left:-3850px;}
+    71%  {left:-3850px;}
+    78%  {left:-4620px;}
+    84%  {left:-4620px;}    
+    91%  {left:-5390px;}
+    100% {left:-5390px;}
+}
+
+/*.mySlides {
+    display: none;
+}*/
+
+/* Slideshow container */
+/*.slideshow-container {
+    max-width: 770px;
+    max-height: 430px;
+    position: relative;
+    margin: auto;
+}*/
+/*position: relative;*/
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -120px;
+    color: #ff4f00;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+ }
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #ff4f00;
+}
+
+/* Fading animation */
+.fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
